@@ -1,0 +1,10 @@
+{
+    "name": "album-art-generator",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+      "build": "make build-client",
+      "heroku-run-build-script": true
+    }
+  }
+  
