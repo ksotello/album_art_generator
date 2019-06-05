@@ -12,4 +12,4 @@ start-client:
 .PHONY: start-client
 
 deploy-client:
-	make build-client && npx surge
+	make build-client && npx surge --domain album-generator-client.surge.sh
