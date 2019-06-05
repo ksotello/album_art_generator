@@ -12,6 +12,7 @@ from io import BytesIO
 
 app = Flask(__name__)
 
+
 CORS(app)
 
 def drawText(image, text, coordinates):
