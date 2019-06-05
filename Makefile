@@ -1,6 +1,6 @@
 
 build-client:
-	cd client && npm i && yarn build
+	cd client && npm i && npm build
 .PHONY: build-client
 
 start-server:
