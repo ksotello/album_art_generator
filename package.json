@@ -3,7 +3,9 @@
     "version": "1.0.0",
     "private": true,
     "scripts": {
-      "build": "make build-client && make start-server",
+      "prebuild": "make build-client",
+      "build": "make start-server",
+      "heroku-prebuild": "true",
       "heroku-run-build-script": "true"
     }
   }
