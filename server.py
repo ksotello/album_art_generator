@@ -68,4 +68,5 @@ def generate():
     return base64.b64encode(buffered.getvalue())
         
     
-app.run()
+if __name__ == '__main__':
+    app.run()
