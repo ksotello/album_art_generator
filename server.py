@@ -16,7 +16,6 @@ app = Flask(__name__)
 CORS(app)
 
 def drawText(image, text, coordinates):
-    font = ImageFont.truetype('Arial Black.ttf', 500)
     draw = ImageDraw.Draw(image)
     color = 'rgb(0, 0, 0)'
 
