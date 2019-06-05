@@ -10,3 +10,6 @@ start-server:
 start-client:
 	cd client && yarn start
 .PHONY: start-client
+
+deploy-client:
+	make build-client && surge
