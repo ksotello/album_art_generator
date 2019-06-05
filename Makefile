@@ -12,4 +12,4 @@ start-client:
 .PHONY: start-client
 
 deploy-client:
-	make build-client && surge
+	make build-client && npx surge
