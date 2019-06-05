@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "private": true,
     "scripts": {
-      "build": "make build-client",
+      "build": "make build-client && cd server && make start-server",
       "heroku-run-build-script": "true"
     }
   }
