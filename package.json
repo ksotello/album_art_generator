@@ -3,8 +3,8 @@
     "version": "1.0.0",
     "private": true,
     "scripts": {
-      "prebuild": "make build-client",
-      "build": "make start-server",
+      "build": "make build-client",
+      "prebuild": "make start-server",
       "heroku-prebuild": "true",
       "heroku-run-build-script": "true"
     },
