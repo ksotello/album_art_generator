@@ -8,7 +8,7 @@ class App extends Component {
   }
 
   async componentDidMount() {
-    const processed_image = await axios.get('http://album-generator-server.surge.sh/generate');
+    const processed_image = await axios.get('https://album-art-generator.herokuapp.com/generate');
     this.setState({ processed_image: processed_image.data });
   }
 
