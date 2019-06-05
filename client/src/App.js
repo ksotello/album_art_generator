@@ -8,7 +8,7 @@ class App extends Component {
   }
 
   async componentDidMount() {
-    const processed_image = await axios.get('http://127.0.0.1:5000/generate');
+    const processed_image = await axios.get('http://album-generator-server.surge.sh/generate');
     this.setState({ processed_image: processed_image.data });
   }
 
